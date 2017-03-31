@@ -1079,7 +1079,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/stdinlove/Desktop/封装/MyApp/MyApp/Other/MyApp-pch.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/Other/MyApp-pch.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1098,7 +1098,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/stdinlove/Desktop/封装/MyApp/MyApp/Other/MyApp-pch.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/Other/MyApp-pch.pch";
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.MyApp;
@@ -1158,7 +1158,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/stdinlove/Desktop/封装/MyApp/MyApp/Other/MyApp-pch.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/Other/MyApp-pch.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1177,7 +1177,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/stdinlove/Desktop/封装/MyApp/MyApp/Other/MyApp-pch.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/Other/MyApp-pch.pch";
 				INFOPLIST_FILE = MyAppTest.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.MyApp;
