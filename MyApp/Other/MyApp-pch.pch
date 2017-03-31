@@ -1,0 +1,32 @@
+//
+//  MyApp-pch.pch
+//  MyApp
+//
+//  Created by liaowentao on 17/3/27.
+//  Copyright © 2017年 Haochuang. All rights reserved.
+//
+// pch文件
+
+#ifndef MyApp_pch_pch
+#define MyApp_pch_pch
+
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <AFNetworking.h>
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import <Masonry.h>
+#import "CommonMethods.h"
+#import "DefineMacro.h"
+#import "DefineRequest.h"
+#import "DefineTheme.h"
+#import "PathManager.h"
+#import "UserDefaultUtil.h"
+#import "UIViewController+swizzling.h"
+#import "NSArray+swiArray.h"
+#import "AppDelegate+AppService.h"
+#import "AppDelegate+ViewController.h"
+#import "UINavigationBar+style.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MyApp_pch_pch */
