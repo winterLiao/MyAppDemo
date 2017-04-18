@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		06AF3BACA95C88CB06F1C12D /* libPods-MyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2506D9353BB16D24BB33B6EC /* libPods-MyApp.a */; };
+		7E0D18191EA5E5BA00AB1996 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D18181EA5E5BA00AB1996 /* CommonMethods.m */; };
+		7E0D181A1EA5E5BA00AB1996 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D18181EA5E5BA00AB1996 /* CommonMethods.m */; };
 		7E380C4D1E8A3305007140DD /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E380C4C1E8A3305007140DD /* UIViewController+swizzling.m */; };
 		7E380C4E1E8A3305007140DD /* UIViewController+swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E380C4C1E8A3305007140DD /* UIViewController+swizzling.m */; };
 		7E380C511E8A3C17007140DD /* NSArray+swiArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E380C501E8A3C17007140DD /* NSArray+swiArray.m */; };
@@ -36,8 +38,6 @@
 		7E75A4441E8CAA7200A5F806 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E75A4421E8CAA7200A5F806 /* NewsViewController.m */; };
 		7E78A9351E88B6A8000667E0 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E78A92A1E88B6A8000667E0 /* HomePageViewController.m */; };
 		7E78A9361E88B6A8000667E0 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E78A92A1E88B6A8000667E0 /* HomePageViewController.m */; };
-		7E78A93E1E89156A000667E0 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E78A93D1E89156A000667E0 /* CommonMethods.m */; };
-		7E78A93F1E89156A000667E0 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E78A93D1E89156A000667E0 /* CommonMethods.m */; };
 		7EB64ECC1E82560A00BCDA47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB64ECB1E82560A00BCDA47 /* main.m */; };
 		7EB64ECF1E82560A00BCDA47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB64ECE1E82560A00BCDA47 /* AppDelegate.m */; };
 		7EB64ED71E82560A00BCDA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB64ED61E82560A00BCDA47 /* Assets.xcassets */; };
@@ -112,6 +112,8 @@
 		08826CE091438FF4059A04E4 /* Pods-MyAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppTest/Pods-MyAppTest.debug.xcconfig"; sourceTree = "<group>"; };
 		2506D9353BB16D24BB33B6EC /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268582AA32564F76DA7A3FF2 /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
+		7E0D18171EA5E5BA00AB1996 /* CommonMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethods.h; sourceTree = "<group>"; };
+		7E0D18181EA5E5BA00AB1996 /* CommonMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethods.m; sourceTree = "<group>"; };
 		7E380C4B1E8A3305007140DD /* UIViewController+swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+swizzling.h"; sourceTree = "<group>"; };
 		7E380C4C1E8A3305007140DD /* UIViewController+swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+swizzling.m"; sourceTree = "<group>"; };
 		7E380C4F1E8A3C17007140DD /* NSArray+swiArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+swiArray.h"; sourceTree = "<group>"; };
@@ -145,8 +147,6 @@
 		7E78A9391E88F8C7000667E0 /* DefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineMacro.h; sourceTree = "<group>"; };
 		7E78A93A1E88F92E000667E0 /* DefineRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineRequest.h; sourceTree = "<group>"; };
 		7E78A93B1E89051F000667E0 /* DefineTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineTheme.h; sourceTree = "<group>"; };
-		7E78A93C1E89156A000667E0 /* CommonMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonMethods.h; path = ../CommonMethods.h; sourceTree = "<group>"; };
-		7E78A93D1E89156A000667E0 /* CommonMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonMethods.m; path = ../CommonMethods.m; sourceTree = "<group>"; };
 		7EB64EC71E82560A00BCDA47 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB64ECB1E82560A00BCDA47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EB64ECD1E82560A00BCDA47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -321,8 +321,8 @@
 		7E380C461E8A11C1007140DD /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				7E78A93C1E89156A000667E0 /* CommonMethods.h */,
-				7E78A93D1E89156A000667E0 /* CommonMethods.m */,
+				7E0D18171EA5E5BA00AB1996 /* CommonMethods.h */,
+				7E0D18181EA5E5BA00AB1996 /* CommonMethods.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -891,6 +891,7 @@
 				7EC7D9371E8B9A4900D5FC60 /* RootTabViewController.m in Sources */,
 				7EC7D92B1E8B8DAE00D5FC60 /* AppDelegate+ViewController.m in Sources */,
 				7E380C7A1E8A447C007140DD /* PathManager.m in Sources */,
+				7E0D18191EA5E5BA00AB1996 /* CommonMethods.m in Sources */,
 				7EC7D9271E8B8ABE00D5FC60 /* AppDelegate+AppService.m in Sources */,
 				7EC7D9231E8B504100D5FC60 /* LWTSegementViewController.m in Sources */,
 				7E380C511E8A3C17007140DD /* NSArray+swiArray.m in Sources */,
@@ -907,7 +908,6 @@
 				7E380C641E8A3F28007140DD /* RSKImageCropViewController.m in Sources */,
 				7E380C621E8A3F28007140DD /* CGGeometry+RSKImageCropper.m in Sources */,
 				7E380C6C1E8A3F28007140DD /* UIImage+RSKImageCropper.m in Sources */,
-				7E78A93E1E89156A000667E0 /* CommonMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,6 +938,7 @@
 				7EC7D9381E8B9A4900D5FC60 /* RootTabViewController.m in Sources */,
 				7EC7D92C1E8B8DAE00D5FC60 /* AppDelegate+ViewController.m in Sources */,
 				7E380C7B1E8A447C007140DD /* PathManager.m in Sources */,
+				7E0D181A1EA5E5BA00AB1996 /* CommonMethods.m in Sources */,
 				7EC7D9281E8B8ABE00D5FC60 /* AppDelegate+AppService.m in Sources */,
 				7EC7D9241E8B504100D5FC60 /* LWTSegementViewController.m in Sources */,
 				7E380C521E8A3C17007140DD /* NSArray+swiArray.m in Sources */,
@@ -954,7 +955,6 @@
 				7E380C651E8A3F28007140DD /* RSKImageCropViewController.m in Sources */,
 				7E380C631E8A3F28007140DD /* CGGeometry+RSKImageCropper.m in Sources */,
 				7E380C6D1E8A3F28007140DD /* UIImage+RSKImageCropper.m in Sources */,
-				7E78A93F1E89156A000667E0 /* CommonMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
